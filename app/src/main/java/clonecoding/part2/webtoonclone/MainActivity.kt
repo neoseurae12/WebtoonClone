@@ -2,8 +2,6 @@ package clonecoding.part2.webtoonclone
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.webkit.WebView
-import android.webkit.WebViewClient
 import clonecoding.part2.webtoonclone.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -17,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.buttonA.setOnClickListener {
             supportFragmentManager.beginTransaction().apply {
-                replace(R.id.fragmentContainer, AFragment())
+                replace(R.id.fragmentContainer, WebtoonWebViewFragment())
                 commit()
             }
         }
@@ -28,6 +26,18 @@ class MainActivity : AppCompatActivity() {
                 commit()
             }
         }
-
     }
+
+    /* super.onBackPressed()의 deprecated 로 인한 코드 변경
+    override fun onBackPressed() {
+        val currentFragment = supportFragmentManager.fragments[0]
+        if (currentFragment is WebtoonWebViewFragment) {
+            if (currentFragment.canGoBack())
+                currentFragment.goBack()
+            else
+                super.onBackPressed()
+        } else
+            super.onBackPressed()
+    }
+     */
 }
