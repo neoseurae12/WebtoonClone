@@ -10,9 +10,9 @@ class ViewPager2Adapter(mainActivity: MainActivity): FragmentStateAdapter(mainAc
 
     override fun createFragment(position: Int): Fragment {
         return when (position) {
-            0 -> WebtoonWebViewFragment()
-            1 -> BFragment()
-            else -> WebtoonWebViewFragment()
+            0 -> WebtoonWebViewFragment(position)
+            1 -> WebtoonWebViewFragment(position)
+            else -> WebtoonWebViewFragment(position)
         }
     }
 }
