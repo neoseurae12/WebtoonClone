@@ -2,14 +2,14 @@
 
 ## 시연영상
 
-<img src="https://velog.velcdn.com/images/neoseurae12/post/224f1007-5d25-4f4f-84b8-4285b5dab94b/image.gif" />
+<img src="https://velog.velcdn.com/images/neoseurae12/post/224f1007-5d25-4f4f-84b8-4285b5dab94b/image.gif" width="250px"/>
 
 ## 주요 학습내용
 
 1. WebView 의 사용
 2. ViewPager2 의 사용
-    1. ViewPager2 를 Fragment 와 함께 쓰기
-    2. TabLayoutMediator 를 통해 TabLayout 과 함께 쓰기
+   1. ViewPager2 를 Fragment 와 함께 쓰기
+   2. TabLayoutMediator 를 통해 TabLayout 과 함께 쓰기
 3. Fragment
 4. SharedPreference
 5. Dialog
@@ -48,7 +48,7 @@
 - 하나의 전체화면에서 다른 전체화면으로 전환할 때 사용
 - 내부 구현을 RecyclerView 로 이루어짐
 
-## 웹툰 앱 클론코딩
+## 웹툰 앱
 
 - ViewPager2 를 이용해 N개의 Fragment 를 구성한다.
 - 각 Fragment 는 WebView 를 전체화면으로 구성한다.
