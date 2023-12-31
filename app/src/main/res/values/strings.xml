@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">WebtoonClone</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">웹-Tune</string>
+
     <string name="back_to_last">마지막 시점 돌아가기</string>
     <string name="change_tab_name">탭 이름 바꾸기</string>
 </resources>
