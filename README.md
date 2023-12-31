@@ -2,7 +2,7 @@
 
 ## 시연영상
 
-<img src="https://velog.velcdn.com/images/neoseurae12/post/224f1007-5d25-4f4f-84b8-4285b5dab94b/image.gif" width="250px"/>
+<img src="https://velog.velcdn.com/images/neoseurae12/post/224f1007-5d25-4f4f-84b8-4285b5dab94b/image.gif" alt="시연영상 gif" width="350" />
 
 ## 주요 학습내용
 
